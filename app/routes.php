@@ -15,3 +15,11 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+
+//++++++++++++++++++++++++++++++++++++++
+// Arrangement Routing
+//++++++++++++++++++++++++++++++++++++++
+
+Route::resource('arrangements', 'ArrangementsController');
